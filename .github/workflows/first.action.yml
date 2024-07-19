@@ -8,3 +8,7 @@ jobs:             #should be jobs as key which is fixed
         run: echo "Hello World"
       - name: print goodye  
         run: echo "good - bye!"
+      - name: print both in a single run 
+        run: |
+          echo "First output"
+          echo "second output"
