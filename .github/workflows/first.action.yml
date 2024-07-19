@@ -1,0 +1,10 @@
+name: First workflow    # name is fixed which tells us name of the workflow
+on: workflow_dispatch  # should be (on) tells us on which event should this work flow trigger
+jobs:             #should be jobs as key which is fixed
+  First-job:     #name of the job any thing can give
+    runs-on:  ubuntu:latest   #should provide runs-on fixed key
+    steps:          #shouled give steps as key
+      - name: Print greeting 
+        run: echo "Hello World"
+      - name: print goodye  
+        run: echo "good - bye!"
